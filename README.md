@@ -29,9 +29,7 @@ git clone https://github.com/aimentoxx-tool/MentoxxTool.git
 cd MentoxxTool
 pip install .
 
-### Usage
 
 🔗 **Option 2: Run command**
-```bash
 mentoxxtool
 
