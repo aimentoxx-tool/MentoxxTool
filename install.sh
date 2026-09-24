@@ -62,7 +62,7 @@ run_step "Installing termux-adb" \
     "curl -fsS https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash && ln -sf \$PREFIX/bin/termux-fastboot \$PREFIX/bin/fastboot && ln -sf \$PREFIX/bin/termux-adb \$PREFIX/bin/adb"
 
 run_step "Installing mentoxxtool" \
-    "pip install -U mentoxxtool"
+    "pip install -U git+https://github.com/aimentoxx-tool/MentoxxTool.git"
 
 echo -e "\n${G}✔ Installation completed successfully${N}"
 echo -e "\nRun command: ${G}mentoxxtool${N}\n"
