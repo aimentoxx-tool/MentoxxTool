@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mentoxxtool"
+license = "Apache-2.0"
+version = "1.6.1"
+description = "MENTOXX Android and Termux utility tool"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "miunlock >= 1.7.3",
+    "miflash >= 1.0.0",
+    "miasst >= 1.4.3",
+    "miapply >= 1.0.1",
+    "fcetool >= 1.0.6",
+]
+
+[project.urls]
+Repository = "https://github.com/aimentoxx-tool/MentoxxTool"
+
+[project.scripts]
+mentoxxtool = "mentoxxtool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mentoxxtool*"]
