@@ -16,16 +16,12 @@ ___
 
 ### Requirements
 
-Python >=3.9
+Python >=3.9[span_0](start_span)[span_0](end_span)
 
 ___
 
-### Install
+### Install Options
 
-```bash
-pip install mentoxxtool
-
-### Direct Install for (Termux)
-
+#### Option 1: Direct Install (For Termux)
 ```bash
 curl -sS [https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh](https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh) | bash
