@@ -24,3 +24,8 @@ ___
 
 ```bash
 pip install mentoxxtool
+
+### Direct Install for (Termux)
+
+```bash
+curl -sS [https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh](https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh) | bash
