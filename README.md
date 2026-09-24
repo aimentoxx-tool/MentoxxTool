@@ -24,4 +24,5 @@ ___
 
 #### Option 1: Direct Install (For Termux)
 ```bash
-curl -sS [https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh](https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh) | bash
+curl -sS https://raw.githubusercontent.com/aimentoxx-tool/MentoxxTool/main/install.sh | bash
+
