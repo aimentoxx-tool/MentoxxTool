@@ -31,5 +31,7 @@ pip install .
 
 ### Usage
 
+🔗 **Option 2: Run command**
 ```bash
 mentoxxtool
+
