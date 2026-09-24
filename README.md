@@ -24,9 +24,10 @@ ___
 
 #### Option 1: Direct Install (For Termux)
 ```bash
-rm -rf MentoxxTool
+
 git clone https://github.com/aimentoxx-tool/MentoxxTool.git
 cd MentoxxTool
+rm -rf MentoxxTool
 pip install .
 
 
